@@ -1,6 +1,6 @@
 # RISC-V FPU — RV64GC Floating-Point Unit
 
-Fully synthesisable SystemVerilog implementation of the RISC-V F/D/Zfh floating-point extensions targeting a 64-bit (RV64) pipeline. Part of the **BLACTEK RV64 processor** project.
+Fully synthesisable SystemVerilog implementation of the RISC-V F/D/Zfh floating-point extensions targeting a 64-bit (RV64) pipeline.
 
 ---
 
