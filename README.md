@@ -246,3 +246,5 @@ FPU/
 ## Author
 
 **ekonihc** — April / May 2026
+
+See my profile [Kouachi Corneille EKON](https://www.linkedin.com/in/ekon-ihc/)
