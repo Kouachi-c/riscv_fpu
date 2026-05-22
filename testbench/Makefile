@@ -41,4 +41,4 @@ waves: $(VCD)
 $(VCD): sim
 
 clean:
-	rm -rf obj_dir $(VCD)
+	rm -rf obj_dir
