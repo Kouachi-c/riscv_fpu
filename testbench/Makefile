@@ -1,23 +1,23 @@
-ROOT  := ../../..
-INC   := -I$(ROOT)/core/FPU/design -I$(ROOT)/core/INTERFACES
+ROOT  := ..
+INC   := -I$(ROOT)/fpu_rtl
 
 SRCS  := \
-    $(ROOT)/core/FPU/design/fpu_pkg.sv \
-    $(ROOT)/core/INTERFACES/fpu_if.sv \
-    $(ROOT)/core/FPU/design/ffront/funpack.sv \
-    $(ROOT)/core/FPU/design/ffront/fclassify.sv \
-    $(ROOT)/core/FPU/design/fcore/faddsub.sv \
-    $(ROOT)/core/FPU/design/fcore/fmult.sv \
-    $(ROOT)/core/FPU/design/fcore/fminmax.sv \
-    $(ROOT)/core/FPU/design/fcore/fcmp.sv \
-    $(ROOT)/core/FPU/design/fcore/fclass.sv \
-    $(ROOT)/core/FPU/design/fcore/fma.sv \
-    $(ROOT)/core/FPU/design/fcore/fsgn.sv \
-    $(ROOT)/core/FPU/design/fcore/fconvert.sv \
-    $(ROOT)/core/FPU/design/fcore/fdivsqrt.sv \
-    $(ROOT)/core/FPU/design/fback/fround.sv \
-    $(ROOT)/core/FPU/design/fback/fpack.sv \
-    $(ROOT)/core/FPU/design/fpu.sv \
+    $(ROOT)/fpu_rtl/fpu_pkg.sv \
+    $(ROOT)/fpu_rtl/fpu_if.sv \
+    $(ROOT)/fpu_rtl/ffront/funpack.sv \
+    $(ROOT)/fpu_rtl/ffront/fclassify.sv \
+    $(ROOT)/fpu_rtl/fcore/faddsub.sv \
+    $(ROOT)/fpu_rtl/fcore/fmult.sv \
+    $(ROOT)/fpu_rtl/fcore/fminmax.sv \
+    $(ROOT)/fpu_rtl/fcore/fcmp.sv \
+    $(ROOT)/fpu_rtl/fcore/fclass.sv \
+    $(ROOT)/fpu_rtl/fcore/fma.sv \
+    $(ROOT)/fpu_rtl/fcore/fsgn.sv \
+    $(ROOT)/fpu_rtl/fcore/fconvert.sv \
+    $(ROOT)/fpu_rtl/fcore/fdivsqrt.sv \
+    $(ROOT)/fpu_rtl/fback/fround.sv \
+    $(ROOT)/fpu_rtl/fback/fpack.sv \
+    $(ROOT)/fpu_rtl/fpu.sv \
     fpu_tb.sv
 
 VFLAGS := --sv --binary --timing --trace \
